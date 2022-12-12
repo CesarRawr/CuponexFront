@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="660.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cuponex.TestController">
+    <children>
+        <Button fx:id="login" layoutX="22.0" layoutY="57.0" onAction="#clicIngresarSistema" text="Iniciar Sesion" />
+      <Label layoutX="22.0" layoutY="14.0" text="Componentes 1">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="registro_usuario" layoutX="22.0" layoutY="120.0" mnemonicParsing="false" onAction="#registroUsuarioHandler" text="registro_usuario" />
+      <Button fx:id="edicion_usuario" layoutX="22.0" layoutY="153.0" mnemonicParsing="false" onAction="#edicionUsuarioHandler" text="edicion_usuario" />
+      <Button fx:id="eliminar_usuario" layoutX="22.0" layoutY="186.0" mnemonicParsing="false" onAction="#eliminarUsuarioHandler" text="eliminar_usuario" />
+      <Label layoutX="22.0" layoutY="90.0" text="Usuario">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="220.0" text="Empresa">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="eliminar_empresa" layoutX="22.0" layoutY="316.0" mnemonicParsing="false" onAction="#eliminarEmpresaHandler" text="eliminar_empresa" />
+      <Button fx:id="edicion_empresa" layoutX="22.0" layoutY="283.0" mnemonicParsing="false" onAction="#editarEmpresaHandler" text="edicion_empresa" />
+      <Button fx:id="registro_empresa" layoutX="22.0" layoutY="250.0" mnemonicParsing="false" onAction="#registrarEmpresaHandler" text="registro_empresa" />
+      <Button fx:id="empresa_nombre" layoutX="22.0" layoutY="348.0" mnemonicParsing="false" onAction="#buscarEmpresaNombreHandler" text="buscar_empresa_nombre" />
+      <Button fx:id="empresa_nrc" layoutX="22.0" layoutY="381.0" mnemonicParsing="false" onAction="#buscarEmpresaNrcHandler" text="buscar_empresa_nrc" />
+      <Button fx:id="empresa_representante" layoutX="22.0" layoutY="413.0" mnemonicParsing="false" onAction="#buscarEmpresaRepresentanteHandler" text="buscar_empresa_representante" />
+      <Label layoutX="23.0" layoutY="452.0" text="Sucursal">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="eliminar_sucursal" layoutX="23.0" layoutY="548.0" mnemonicParsing="false" onAction="#eliminarSucursalHandler" text="eliminar_sucursal" />
+      <Button fx:id="edicion_sucursal" layoutX="23.0" layoutY="515.0" mnemonicParsing="false" onAction="#editarSucursalHandler" text="edicion_sucursal" />
+      <Button fx:id="registro_sucursal" layoutX="23.0" layoutY="482.0" mnemonicParsing="false" onAction="#registrarSucursalHandler" text="registro_sucursal" />
+      <Button fx:id="sucursal_nombre" layoutX="24.0" layoutY="582.0" mnemonicParsing="false" onAction="#buscarSucursalNombreHandler" text="buscar_sucursal_nombre" />
+      <Button fx:id="sucursal_direccion" layoutX="24.0" layoutY="615.0" mnemonicParsing="false" onAction="#buscarSucursalDireccionHandler" text="buscar_sucursal_direccion" />
+      <ComboBox fx:id="lista_empresas" layoutX="148.0" layoutY="482.0" prefWidth="150.0" />
+      <Label layoutX="148.0" layoutY="452.0" text="Lista de empresas">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="317.0" layoutY="328.0" rotate="90.0" scaleX="3.0" startX="-100.0" />
+      <Label layoutX="335.0" layoutY="31.0" text="Promocion">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="eliminar_promocion" layoutX="335.0" layoutY="137.0" mnemonicParsing="false" onAction="#eliminarPromocionHandler" text="eliminar_promocion" />
+      <Button fx:id="edicion_promocion" layoutX="335.0" layoutY="104.0" mnemonicParsing="false" onAction="#edicionPromocionHandler" text="edicion_promocion" />
+      <Button fx:id="registro_promocion" layoutX="335.0" layoutY="71.0" mnemonicParsing="false" onAction="#registroPromocionHandler" text="registro_promocion" />
+      <ComboBox fx:id="lista_empresas1" layoutX="335.0" layoutY="208.0" prefWidth="150.0" />
+      <Label layoutX="335.0" layoutY="173.0" text="Elegir sucursales">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ListView layoutX="335.0" layoutY="248.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="144.0" layoutY="221.0" text="Lista de categorias">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="lista_categorias" layoutX="144.0" layoutY="251.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>

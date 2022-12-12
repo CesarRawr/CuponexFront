@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="339.0" prefWidth="270.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cuponex.usuarios.EditController">
+   <children>
+      <Button layoutX="145.0" layoutY="270.0" mnemonicParsing="false" onAction="#createHandler" prefHeight="35.0" prefWidth="105.0" style="-fx-background-color: #63b4f4;" text="Crear" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nombre" layoutX="20.0" layoutY="63.0" prefHeight="35.0" prefWidth="230.0" promptText="Nombre">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="apellidoP" layoutX="20.0" layoutY="112.0" prefHeight="35.0" prefWidth="230.0" promptText="Apellido Paterno">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="apellidoM" layoutX="20.0" layoutY="161.0" prefHeight="35.0" prefWidth="230.0" promptText="Apellido Materno">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="65.0" layoutY="20.0" text="Modificar Usuario" textFill="#161616">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="270.0" mnemonicParsing="false" onAction="#cancelHandler" prefHeight="35.0" prefWidth="105.0" style="-fx-background-color: #ffa4a2;" text="Cancelar" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="password" layoutX="21.0" layoutY="210.0" prefHeight="35.0" prefWidth="230.0" promptText="Contraseña">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

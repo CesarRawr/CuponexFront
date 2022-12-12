@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="453.0" prefWidth="509.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cuponex.promociones.SearchController">
+   <children>
+      <Button layoutX="202.0" layoutY="404.0" mnemonicParsing="false" onAction="#acceptHandler" prefHeight="35.0" prefWidth="105.0" style="-fx-background-color: #63b4f4;" text="Aceptar" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nombre" editable="false" layoutX="14.0" layoutY="50.0" prefHeight="35.0" prefWidth="230.0" promptText="Nombre">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="209.0" layoutY="14.0" text="Promoción" textFill="#161616">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="descripcion" editable="false" layoutX="14.0" layoutY="93.0" prefHeight="35.0" prefWidth="230.0" promptText="Descripción">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="costoProm" editable="false" layoutX="15.0" layoutY="312.0" prefHeight="35.0" prefWidth="230.0" promptText="Costo de la Promoción">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="porcentDesc" editable="false" layoutX="15.0" layoutY="268.0" prefHeight="35.0" prefWidth="230.0" promptText="Porcentaje de Descuento">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="restricciones" editable="false" layoutX="15.0" layoutY="224.0" prefHeight="35.0" prefWidth="230.0" promptText="Restricciones">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="estatus" disable="true" layoutX="252.0" layoutY="94.0" prefHeight="35.0" prefWidth="230.0" promptText="Estatus" style="-fx-background-color: #eceff1;" />
+      <DatePicker fx:id="fecha_In" disable="true" editable="false" layoutX="15.0" layoutY="136.0" prefHeight="35.0" prefWidth="230.0" promptText="Fecha de Inicio" />
+      <DatePicker fx:id="fecha_Fn" disable="true" editable="false" layoutX="15.0" layoutY="180.0" prefHeight="35.0" prefWidth="230.0" promptText="Fecha de Término" />
+      <ComboBox fx:id="tipoProm" disable="true" layoutX="14.0" layoutY="355.0" prefHeight="35.0" prefWidth="230.0" promptText="Tipo de Promoción" style="-fx-background-color: #eceff1;" />
+      <ComboBox fx:id="categoria" disable="true" layoutX="252.0" layoutY="50.0" prefHeight="35.0" prefWidth="230.0" promptText="Categoria" style="-fx-background-color: #eceff1;" />
+      <ImageView fx:id="imagen" fitHeight="79.0" fitWidth="230.0" layoutX="252.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/select-image.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="empresaSelector" disable="true" layoutX="252.0" layoutY="224.0" onAction="#empresaSelectorHandler" prefHeight="35.0" prefWidth="230.0" promptText="Empresa" style="-fx-background-color: #eceff1;" />
+      <ListView fx:id="sucursales" disable="true" layoutX="252.0" layoutY="285.0" prefHeight="106.0" prefWidth="230.0" />
+      <Label layoutX="255.0" layoutY="264.0" text="Lista de sucursales" />
+   </children>
+</AnchorPane>

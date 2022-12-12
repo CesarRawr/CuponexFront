@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="381.0" prefWidth="509.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cuponex.sucursales.SearchController">
+   <children>
+      <Button layoutX="200.0" layoutY="323.0" mnemonicParsing="false" onAction="#acceptHandler" prefHeight="35.0" prefWidth="105.0" style="-fx-background-color: #63b4f4;" text="Aceptar" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nombre" disable="true" layoutX="14.0" layoutY="50.0" prefHeight="35.0" prefWidth="230.0" promptText="Nombre">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="219.0" layoutY="14.0" text="Sucursal" textFill="#161616">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="direccion" disable="true" layoutX="14.0" layoutY="93.0" prefHeight="35.0" prefWidth="230.0" promptText="Dirección">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="codigo_P" disable="true" layoutX="15.0" layoutY="136.0" prefHeight="35.0" prefWidth="230.0" promptText="Código Postal">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="colonia" disable="true" layoutX="14.0" layoutY="180.0" prefHeight="35.0" prefWidth="230.0" promptText="Colonia">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="encargado" disable="true" layoutX="252.0" layoutY="138.0" prefHeight="35.0" prefWidth="230.0" promptText="Encargado">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="longitud" disable="true" layoutX="252.0" layoutY="94.0" prefHeight="35.0" prefWidth="230.0" promptText="Longitud">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="latitud" disable="true" layoutX="252.0" layoutY="51.0" prefHeight="35.0" prefWidth="230.0" promptText="Latitud">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="telefono" disable="true" layoutX="15.0" layoutY="267.0" prefHeight="35.0" prefWidth="230.0" promptText="Teléfono">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ciudad" disable="true" layoutX="15.0" layoutY="224.0" prefHeight="35.0" prefWidth="230.0" promptText="Ciudad">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="empresaSelector" disable="true" layoutX="252.0" layoutY="182.0" prefHeight="35.0" prefWidth="230.0" promptText="Empresa" style="-fx-background-color: #eceff1;" />
+   </children>
+</AnchorPane>

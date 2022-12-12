@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="166.0" prefWidth="285.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cuponex.usuarios.DeleteController">
+   <children>
+      <Label fx:id="hook" layoutX="22.0" layoutY="46.0" text="¿Seguro que desea eliminar el usuario?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="157.0" layoutY="90.0" mnemonicParsing="false" onAction="#cancelHandler" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: #ffa4a2;" text="No" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="61.0" layoutY="90.0" mnemonicParsing="false" onAction="#acceptHandler" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: #63b4f4;" text="Si" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

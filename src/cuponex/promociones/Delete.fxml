@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="117.0" prefWidth="318.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cuponex.promociones.DeleteController">
+   <children>
+      <Label fx:id="hook" layoutX="28.0" layoutY="22.0" text="¿Seguro que desea eliminar la promoción?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="233.0" layoutY="59.0" mnemonicParsing="false" onAction="#cancelHandler" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: #ffa4a2;" text="No" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="59.0" mnemonicParsing="false" onAction="#acceptHandler" prefHeight="31.0" prefWidth="67.0" style="-fx-background-color: #63b4f4;" text="Si" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="99.0" layoutY="59.0" mnemonicParsing="false" onAction="#disableSucursalHandler" prefHeight="31.0" prefWidth="122.0" style="-fx-background-color: #63b4f4;" text="Solo desactivarla" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

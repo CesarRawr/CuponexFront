@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="276.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cuponex.LoginController">
+   <children>
+      <Label layoutX="101.0" layoutY="21.0" text="Login">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="106.0" layoutY="214.0" mnemonicParsing="false" onAction="#loginHandler" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="password" layoutX="25.0" layoutY="163.0" prefHeight="25.0" prefWidth="217.0" />
+      <Label layoutX="25.0" layoutY="71.0" text="Nombre" />
+      <Label layoutX="25.0" layoutY="139.0" text="Contraseña" />
+      <TextField fx:id="nombre" layoutX="25.0" layoutY="96.0" prefHeight="25.0" prefWidth="217.0" />
+   </children>
+</AnchorPane>
