@@ -101,7 +101,7 @@ CREATE TABLE `promocion` (
   `tipoProm` varchar(40) DEFAULT NULL,
   `idCategoriaE` int(11) DEFAULT NULL,
   `is_active` boolean DEFAULT NULL,
-  `imagen` longblob DEFAULT NULL
+  `imagen` base64 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
